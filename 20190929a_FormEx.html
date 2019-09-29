@@ -1,0 +1,75 @@
+<!-- Sample Registration Form -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form action="http://www.wikipedia.org" method="post">
+		<fieldset>
+			<legend>Full Name</legend>
+			<label for="nameInput1">First Name:</label>
+			<input id="nameInput1" type="text" placeholder="John" name="firstName" required>
+			<label for="nameInput2">Last Name:</label>
+			<input id="nameInput2" type="text" placeholder="Smith" name="lastName" required>
+		</fieldset>
+		<fieldset>
+			<legend>Gender Selection</legend>
+			<label for="genderSelection1">Male</label>
+			<input type="radio" id="genderSelection1" name="gender" value="male">
+			<label for="genderSelection2">Female</label>
+			<input type="radio" id="genderSelection2" name="gender" value="female">
+			<label for="genderSelection3">Other</label>
+			<input type="radio" id="genderSelection3" name="gender" value="other">
+		</fieldset>
+		<fieldset>
+			<legend>Login Information</legend>
+			<label>
+				Email Address: 
+					<input type="email" placeholder="your email" name="email" required>
+			</label>
+			<label>
+				Password:
+					<input type="password" placeholder="password" name="password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters.">
+			</label>
+		</fieldset>
+		<fieldset>
+			<legend>Birthdate Selection</legend>
+			<!-- Birth Month -->
+			<label for="birthdateSelection1">Birth Month</label>
+			<select id="birthdateSelection1" name="birthMonth">
+				<option value=" ">--Month--</option>
+				<option value="01">January</option>
+				<option value="02">February</option>
+				<option value="03">March</option>
+				<option value="other">Other</option>
+			</select>
+			<!-- Birth Day -->
+			<label for="birthdateSelection2">Birth Day</label>
+			<select id="birthdateSelection2" name="birthDay">
+				<option value=" ">--Day--</option>
+				<option value="01">1</option>
+				<option value="02">2</option>
+				<option value="03">3</option>
+				<option value="other">Other</option>
+			</select>
+			<!-- Birth Year -->
+			<label for="birthdateSelection3">Birth Year</label>
+			<select id="birthdateSelection3" name="birthYear">
+				<option value=" ">--Year--</option>
+				<option value="2019">2019</option>
+				<option value="2018">2018</option>
+				<option value="2017">2017</option>
+				<option value="other">Other</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Terms and Conditions</legend>
+			<label for="termsAgreement">I agree to the terms & conditions</label>
+			<input type="checkbox" id="termsAgreement" name="agreedToTerms" required>
+		</fieldset>
+		<button>Submit</button>
+	</form>
+</body>
+</html>
