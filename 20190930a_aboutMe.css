@@ -1,0 +1,16 @@
+h1 {
+	color: rgba(0, 100, 200, .6);
+	border: 5px solid purple;
+}
+
+h4 {
+	color: rgba(100, 50, 10, .5);
+	background: beige;
+}
+
+body {
+	background: beige;
+	background: url(http://2.bp.blogspot.com/-rVIH7_G7SP4/UDTAnop_XOI/AAAAAAAACUM/xUC7SAmby9k/s1600/light_background_for_blog_or_site.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
