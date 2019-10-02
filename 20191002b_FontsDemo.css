@@ -1,0 +1,19 @@
+body {
+	font-size: 11px;
+}
+p {
+	font-size: 1.5em;
+}
+span { 
+	font-size: 2em;
+	line-height: 2;
+	text-decoration: overline;
+}
+h1 {
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 2;
+	text-align: center;
+	text-decoration: underline;
+
+}
