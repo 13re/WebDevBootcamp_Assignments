@@ -1,0 +1,41 @@
+body {
+	margin: 20px auto;
+	max-width: 715px;
+	width: 80%;
+	border: 20px solid #bdc4c8;
+	padding: 30px;
+	font-family: The Girl Next Door;
+	font-size: 20px;
+	line-height:25px;
+}
+
+.blogContent {
+	font-family: The Girl Next Door;
+	font-size: 20px;
+	color: rgba(50, 100, 150, .52);
+}
+
+.date {
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: orange;
+	letter-spacing: 0.15rem;
+}
+.quoteText {
+	border-left: 8px solid rgba(50, 100, 150, .65);
+	padding: 10px;
+	color: rgba(50, 100, 150, .65);
+}
+hr {
+	margin: 60px 0;
+	transform: rotate(-3deg);
+	border:3px solid rgba(20, 100, 50, .3);
+	box-shadow: 0 0 8px 4px rgba(20, 100, 50, .3);
+}
+
+h2 {
+	text-transform: uppercase;
+	color: rgba(50, 100, 150, .85);
+	letter-spacing:.2em;
+	font-size: 2.5rem;
+}
