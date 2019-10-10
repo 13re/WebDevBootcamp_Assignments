@@ -1,0 +1,62 @@
+.jumbotron {
+	color: DarkSlateGray;
+	background-color: LavendarBlush;
+}
+
+.navbar {
+	background-color: DarkOliveGreen;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: thistle;
+}
+
+.navbar-inverse .navbar-brand {
+	color: thistle;
+}
+
+.image {
+	height:200px;
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+	background-size: cover;
+	background-position: center center;
+}
+
+.image1 {
+	background-image: url(http://source.unsplash.com/2d4lAQAlbDA);
+}
+.image2 {
+	background-image: url(http://source.unsplash.com/XbwHrt87mQ0);
+}
+.image3 {
+	background-image: url(http://source.unsplash.com/M0k4llbRpHU);
+}
+.image4 {
+	background-image: url(http://source.unsplash.com/ogsUbaQiEkw);
+}
+.image5 {
+	background-image: url(http://source.unsplash.com/KtOid0FLjqU);
+}
+.image6 {
+	background-image: url(http://source.unsplash.com/RFDP7_80v5A);
+}
+.image7 {
+	background-image: url(http://source.unsplash.com/9gwPgCa8y-E);
+}
+.image8 {
+	background-image: url(http://source.unsplash.com/kspRwqFxOms);
+}
+.image9 {
+	background-image: url(http://source.unsplash.com/iAkAhmq0bvA);
+}
+.image10 {
+	background-image: url(http://source.unsplash.com/QzR1SYKy7L4);
+}
+.image11 {
+	background-image: url(http://source.unsplash.com/lvQF20liLec);
+}
+.image12 {
+	background-image: url(http://source.unsplash.com/0Vdrg5pR7NY);
+}
