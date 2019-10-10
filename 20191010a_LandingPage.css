@@ -1,0 +1,68 @@
+
+
+/*----- CENTER -----*/
+
+html {
+	height: 100%;
+}
+
+/* Center Logo -- Green */
+h1 {
+	font-size: 4em;
+	color: YellowGreen;
+	text-shadow: 2px 4px 6px rgba(0,0,0,0.5),
+				 2px 8px 12px rgba(0,0,0,0.3),
+				 2px 12px 24px rgba(0,0,0,0.1);
+
+}
+
+/* Center Logo -- Blue */
+.logoBlue {
+	color: teal;
+}
+
+/* Center message */
+h3 {
+	font-size:2.4em;
+	font-family: "Indie Flower";
+	color: MediumAquamarine;
+	text-shadow: 2px 6px 6px rgba(0,0,0,0.5),
+				 2px 12px 12px rgba(0,0,0,0.3),
+				 2px 18px 24px rgba(0,0,0,0.1);
+}
+
+/* Center Content Aligment */
+#centerContent {
+	text-align: center;
+	padding-top: 20%;
+}
+
+hr {
+	width: 500px;
+	max-width: 90%; /* used so hr doesn't go off-screen on smaller devices */
+	/* hr shadow effect */
+	border-top: 1px solid Thistle;
+	border-bottom: 6px solid rgba(0, 0, 0, 0.2);
+}
+
+
+/* Body: Font, Background Image */
+body {
+		font-family: "Libre Franklin";
+		background-image: url(http://source.unsplash.com/1-DjHRSDOm0);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-color: black;
+}
+
+/*----- NAVBAR -----*/
+
+/* Navbar Logo -- Green */
+.navbar-inverse .navbar-brand {
+	color: YellowGreen;
+}
+/* Navbar Logo -- Blue */
+.navbar-inverse .navbar-brand .logoBlue {
+	color: teal;
+}
