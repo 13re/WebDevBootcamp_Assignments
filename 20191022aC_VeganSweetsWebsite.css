@@ -1,0 +1,94 @@
+body {
+    background: #c9fdc9;
+    font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+    color: purple;
+    font-weight: 100;
+}
+
+.blurb p {
+    color: darkolivegreen;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.navbar-toggler {
+    border-color: rgba(218, 112, 214, 0.6);
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(218, 112, 214, 0.6)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.2rem;
+    color: orchid;
+    font-weight: 400;
+}
+
+.navbar .navbar-brand span {
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+
+.blurb span {
+    font-size: 3.2rem;
+    font-weight: 400;
+}
+
+#navLink .nav-item {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+a {
+    color: deepskyblue;
+}
+
+#navLink .nav-item:hover {
+    background: purple;
+}
+
+.navbar.scrolled {
+    background: darkslategray;
+    transition: background 500ms;
+}
+
+#headingGroup span {
+    color: purple;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 2.6rem;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 2.2rem;
+    }
+}
+
+#firstImage {
+    object-fit: none;
+    object-position: 50% 95%;
+    width: 100%;
+    height: 600px;
+}
+
+#blurbImage {
+    object-fit: cover;
+    object-position: 50% 25%;
+    width: 100%;
+    height: 500px;
+}
+
+#veganLogo {
+    width: 10%;
+}
+
+.contentRow {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
